@@ -1,0 +1,314 @@
+/* 
+   Meyer Web reset stylesheet to reduce browser inconsistencies:
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Start of Philip Hu's work */
+body{
+    background: url(../images/white-waves.png);
+}
+
+header{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #fff;
+    height: 80px;
+    padding: 0px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 40px;
+}
+
+.container{
+    background-color: #fff;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px 0 10px;
+}
+
+nav{
+    float:right;
+    margin: 0;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 30px;
+    line-height:80px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 2;
+    margin-top: 0;
+   
+}
+
+h1{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+    width: 225px;
+    line-height:80px;
+    float: left;
+    font-size: 30px;
+}
+
+h2{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+h3{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color:#777777;
+}
+
+/* section in index.html */
+#about-me{
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    color:#777777;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+/* section in portfolio.html */
+#portfolio{
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    color: #777777;
+    width: 920px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* section in contact.html */
+#contact{
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    color: #777777;
+    width: 920px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+/* for the image 1 in portfolio.html */
+#pic-cont1{
+    margin: 10px 0 0 0;
+    width: 200px;
+    height: 150px;
+    float: left;
+    background: url(../images/cat-ph.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+/* for the image 2 in portfolio.html */
+#pic-cont2{
+    margin: 10px 0 0 30px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    background: url(../images/city-ph.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+/* for the image 3 in portfolio.html */
+#pic-cont3{
+    margin: 30px 0 0 0;
+    width: 200px;
+    height: 150px;
+    float: left;
+    background: url(../images/food-ph.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+/* for the image 4 in portfolio.html */
+#pic-cont4{
+    margin: 30px 0 0 30px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    background: url(../images/person-ph.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+/* for the image 5 in portfolio.html */
+#pic-cont5{
+    margin: 30px 0 0 0;
+    width: 200px;
+    height: 150px;
+    float: left;
+    background: url(../images/bike-ph.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+/* for all the image titles in portfolio.html */
+.titles{
+    position: absolute;
+    bottom: 10px;
+    margin: 0;
+    font: 14px Sans-Serif;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+/* narrow container to limit two images per row in portfolio.html */
+#narrow{
+    width: 440px;
+}
+
+/* don't change the color or underline visited links */
+a, a:visited {
+    color: #777777;
+    text-decoration:none;
+}
+
+/* only img is in index.html */
+img{
+    border-radius: 8px;
+    max-width: 100%;
+    height: 180px;
+    float: left;
+    margin: 0px 20px 10px 0px;
+}
+
+/* footer is stuck to the bottom of page */
+footer{
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #666;
+    color: white;
+    font-size: 12px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* horizontal line, divider */
+hr{
+    border: 2px solid #ccc;
+}
+
+#contact-form{
+    margin-top: 20px;
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 100%;
+    height: 300px;
+}
+
+.pic-container{
+    position: relative;
+    display: block;
+}
+
+.text-block{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 2x 0 2px 0;
+    height: 40px;
+}
+
+/* submit button in contact.html */
+#submit-btn{
+    color: white;
+    font-size: 20px;
+    width: 135px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+    padding: 0;
+    background-color: #4aaaa5;
+}
